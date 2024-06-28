@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cart Overview</title>
+
+    <!-- Displays icon on the title bar -->
+    <link rel="icon" href="images/Mediacre-icon.png" type="image/icon type" />
+
+    <!-- Importing font style -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <!--This is the code for the Navigation bar-->
+    <header>
+      <a href="landing.html"
+        ><img src="images/Goods-logo-2.png" alt="website logo"
+      /></a>
+      <nav>
+        <ul>
+          <li>
+            <a href="cart.html">Cart</a>
+          </li>
+          <li>
+            <a href="log-in.html">Log In</a>
+          </li>
+          <li>
+            <a href="sign-up.html">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <div class="cartInformation">
+            <h1>Information</h1>
+            <br />
+            <label for="First Name">First Name:</label>
+            <br />
+            <input type="text" id="First Name" name="First Name" size="40" />
+            <br />
+
+            <label for="Last Name">Last Name:</label>
+            <br />
+            <input type="text" id="Last Name" name="Last Name" size="40" />
+            <br />
+
+            <label for="Email">Email</label>
+            <br />
+            <input type="text" id="Email" name="Email" size="40" />
+            <br />
+
+            <label for="Address">Address</label>
+            <br />
+            <input type="numbers" id="Address" name="Address" size="40" />
+            <br />
+
+            <label for="Postal Code">Postal Code</label>
+            <br />
+            <input type="numbers" id="PostalCode" name="PostalCode" size="6" />
+            <br />
+
+            <label for="Phone number">Phone Number</label>
+            <br />
+            <input
+              type="numbers"
+              id="Phone Number"
+              name="Phone Number"
+              size="12"
+            />
+            <br />
+          </div>
+
+          <div class="bezorging">
+            <label for="Delivery Estimate">Delivery Estimate</label>
+            <br />
+            <input
+              type="date"
+              type="datetime-local"
+              id="Delivery Estimate"
+              name="Delivery Estimate"
+              size="40"
+            />
+            <br />
+          </div>
+
+          <div class="paying">
+            <h2>Select Payment Option</h2>
+            <form id="paymentType">
+              <div class="paying-methods">
+                <input
+                  type="radio"
+                  id="ideal"
+                  name="payment"
+                  value="ideal"
+                  checked
+                />
+                <label for="IDEAL">IDEAL</label>
+              </div>
+
+              <div class="paying-methods">
+                <input
+                  type="radio"
+                  id="debitCard"
+                  name="payment"
+                  value="debitCard"
+                />
+                <label for="debitCard">Debit Card</label>
+              </div>
+
+              <div class="paying-methods">
+                <input
+                  type="radio"
+                  id="creditCard"
+                  name="payment"
+                  value="creditCard"
+                />
+                <label for="creditCard">Credit Card</label>
+              </div>
+
+              <br />
+              <button class="paymentBtn" id="payNowBtn" type="submit">
+                Proceed to Payment
+              </button>
+
+              <div class="payings" id="pay">
+                <div class="thankYou">
+                  <span class="payCloseBtn">&times;</span>
+                  <h2>Thank You</h2>
+                  <iframe
+                    src="https://giphy.com/embed/a5llhdWKMOIfneMCpB"
+                    width="480"
+                    height="269"
+                    style=""
+                    frameborder="0"
+                    class="giphy-embed"
+                    allowfullscreen
+                  ></iframe>
+                  <br />
+                  <p>
+                    Thank you for buying from us and we will be bringing the
+                    goods to you soon!
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="cartSummery">
+            <h2 class="totaalCart">CART</h2>
+            <br />
+            <h2 class="totaalGoods">Goods</h2>
+            <br />
+            <p class="left-cart">White Widow Joint</p>
+            <p class="price">€10,20</p>
+            <br />
+            <p class="left-cart">Lemon Haze</p>
+            <p class="price">€8,70</p>
+            <br />
+            <br />
+            <br />
+            <p class="left-cart">Subtotaal</p>
+            <p class="price">€18,90</p>
+
+            <p class="left-cart">Delivery Cost</p>
+            <p class="price">€2,50</p>
+
+            <p class="left-cart">Totaal</p>
+            <p class="price">€21.40</p>
+
+            <br />
+            <button class="totaalBtn" type="submit">Pay Now</button>
+            <br />
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="script2.js"></script>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="shops.html">Order</a>
+        </li>
+        <li>
+          <a href="province.html">Province</a>
+        </li>
+        <li>
+          <a href="landing.html">About</a>
+        </li>
+        <li>
+          <a href="points.html">Points</a>
+        </li>
+        <li>
+          <a href="city.html">City</a>
+        </li>
+      </ul>
+      <div class="copy-right">© 2024 Goods.nl</div>
+    </footer>
+  </body>
+</html>

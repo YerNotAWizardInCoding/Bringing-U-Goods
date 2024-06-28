@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store/GOODS</title>
+
+    <!-- Displays icon on the title bar -->
+    <link rel="icon" href="images/Mediacre-icon.png" type="image/icon type" />
+
+    <!-- Importing font style -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="scrollevent.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="landing.html"
+        ><img src="images/Goods-logo-2.png" alt="website logo"
+      /></a>
+      <nav>
+        <ul>
+          <li>
+            <a href="cart.html">Cart</a>
+          </li>
+          <li>
+            <a href="log-in.html">Log In</a>
+          </li>
+          <li>
+            <a href="sign-up.html">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="cover-container">
+      <img
+        src="images/coffee_thewall.png"
+        alt="Cover holder"
+        class="cover-image"
+      />
+    </div>
+
+    <main>
+      <aside>
+        <h2>Categories:</h2>
+        <div class="filter-category">
+          <ul>
+            <li><a class="nav-link" href="#First_section">Weed</a></li>
+            <li><a class="nav-link" href="#Second_section">Hash</a></li>
+            <li><a class="nav-link" href="#Third_section">Prerolled</a></li>
+            <li><a class="nav-link" href="#Fourth_section">Accessories</a></li>
+          </ul>
+        </div>
+        <!-- <div class="image-weed">
+          <img src="images/weed.png" alt="weed" />
+        </div> -->
+      </aside>
+
+      <article class="content">
+        <section id="First_section">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/weed_haze.png" alt="Product Image" />
+              <h3>Amnesia Haze</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: €9 - €14</p>
+              <button id="openInformationBtn">Quick View</button>
+
+              <div class="popper" id="poppers">
+                <div class="extra-information">
+                  <span class="popperCloseBtn">&times;</span>
+                  <h2>Amnesia Haze</h2>
+                  <img src="#" alt="" />
+                  <br />
+                  <p>
+                    Amnesia Haze is renowned for its strong and well-balanced
+                    effects, which combine an Indica's calming and euphoric
+                    characteristics with a Saliva's uplifting and energizing
+                    features. Its flavor profile and deep aroma, coupled with
+                    its successful lineage, make it a popular among people who
+                    use cannabis for medicinal and recreational use. Amnesia
+                    Haze is a pleasant and adaptable strain that may be used to
+                    improve social interactions or to increase creativity and
+                    attention during the day.
+                  </p>
+                </div>
+              </div>
+
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="First_section">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/white.png" alt="Product Image" />
+              <h3>White Rhino</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: €8.50 - €12.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="First_section">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/strawberry_haze.png" alt="Product Image" />
+              <h3>Strawberry Haze</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: €8 - €12.50</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="First_section">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/diamondog.png" alt="Product Image" />
+              <h3>Diamond OG</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: €8 - €13</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Second_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/hash1.png" alt="Product Image" />
+              <h3>Critical Blue Hash</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: €8.00 - €12.50</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Second_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/hash2.png" alt="Product Image" />
+              <h3>Banana Hash</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: €10.00 - €30.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Third_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/prerolled1.png" alt="Product Image" />
+              <h3>Strawberry Haze <br />Joint</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: € 5,00 - €15.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Third_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/prerolled2.png" alt="Product Image" />
+              <h3>White Widow Joint</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: € 6,00 - €7.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Third_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/prerolled3.png" alt="Product Image" />
+              <h3>Lemon Haze Joint</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: € 8,00 - €15.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Third_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/prerolled3.png" alt="Product Image" />
+              <h3>Amnesia Haze Joint</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: € 8,00 - €12.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Fourth_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/accessories1.png" alt="Product Image" />
+              <h3>Rolling Paper</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: € 1,00 - €3.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Fourth_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/accessories2.png" alt="Product Image" />
+              <h3>Grinder</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: € 5,00 - €10.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Fourth_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/accessories3.png" alt="Product Image" />
+              <h3>Storage</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: € 1,00 - €5.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="Fourth_section" class="hidden">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="images/accessories4.png" alt="Product Image" />
+              <h3>Lighters & Matches</h3>
+              <p>Rating: ★★★★☆</p>
+              <p>Price: € 1,00 - €5.00</p>
+              <button>Quick View</button>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <aside id="cart">
+        <div class="image-cart">
+          <img src="images/cart.png" alt="cart" />
+        </div>
+        <div class="cart-content">
+          <h2>Your Cart:</h2>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <p>Total: 0.00€</p>
+        </div>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer class="bottom-footer">
+      <ul>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="shops.html">Order</a>
+        </li>
+        <li>
+          <a href="province.html">Province</a>
+        </li>
+        <li>
+          <a href="landing.html">About</a>
+        </li>
+        <li>
+          <a href="points.html">Points</a>
+        </li>
+        <li>
+          <a href="city.html">City</a>
+        </li>
+      </ul>
+      <div class="copy-right">© 2024 Goods.nl</div>
+    </footer>
+  </body>
+</html>
